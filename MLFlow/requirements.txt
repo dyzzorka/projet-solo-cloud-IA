@@ -1,0 +1,5 @@
+boto3
+requests
+mlflow==2.16.1
+scikit-learn
+psycopg2-binary
