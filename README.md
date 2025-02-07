@@ -7,3 +7,5 @@ streamlit https://github.com/Quera-fr/Ynov-Streamlit
 api https://github.com/Quera-fr/Ynov-API
 mlflow https://github.com/Quera-fr/Ynov-MLFLOW
 airflow https://github.com/Quera-fr/YNOV-Airflow
+
+link du depot https://docs.google.com/spreadsheets/d/1ppWN-20vWkHqwJHwJn4CKpPTcDwl4aTIpi3-_sNLixk/edit?gid=0#gid=0
