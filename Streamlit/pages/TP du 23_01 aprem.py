@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 
 st.set_page_config(
-    page_title="TP du 23/01 aprem",
+    page_title="Streamlit yohan ynov",
     page_icon="😎",
     layout="wide",
 )

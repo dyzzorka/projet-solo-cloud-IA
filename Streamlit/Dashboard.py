@@ -4,7 +4,7 @@ import seaborn as sns
 
 
 st.set_page_config(
-    page_title="My Dashboard",
+    page_title="Streamlit yohan ynov",
     page_icon="😎",
     layout="wide",
 )
@@ -12,11 +12,6 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     return pd.read_csv("https://raw.githubusercontent.com/Quera-fr/Python-Programming/refs/heads/main/data.csv")
-
-try:
-    st.sidebar.write(st.secrets['API_KEY'])
-except:
-    st.error('il n\'y a pas de secret')
 
 df = load_data()
 

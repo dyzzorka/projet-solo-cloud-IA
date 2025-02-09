@@ -5,13 +5,11 @@ import json
 import requests
 
 st.set_page_config(
-    page_title="TP du 23/01 aprem",
+    page_title="Streamlit yohan ynov",
     page_icon="😎",
     layout="wide",
 )
-api_url = st.sidebar.text_input("Entrez une URL pour l'api :", "")
-
-api_url+= "/predict"
+api_url = "https://fastapi-yohan-ynov-b4e8901d7995.herokuapp.com/predict"
 
 with st.form('predictform', False):
     gender = st.selectbox("Gender", ["Male", "Female", "Other"])
