@@ -43,9 +43,8 @@ def send_email_alert(error_message):
 
 with DAG(
     "api_monitoring_dag",
-    start_date=datetime.now(),
-    schedule_interval=timedelta(seconds=300),
-    end_date=datetime(2025,10,10),
+    start_date=datetime(2025,3,3,19),
+    schedule_interval=timedelta(seconds=60),
 ) as dag:
 
     check_api = PythonOperator(
